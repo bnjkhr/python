@@ -10,7 +10,7 @@ def main():
         roll_again = input("Ready to roll? Enter=Roll. Q=Quit. ")
         if roll_again.lower() != "q":
             num_rolled = roll(sides)
-            print("You rolled a ", num_rolled)
+            print("You rolled a", num_rolled)
         else:
             rolling = False
 
